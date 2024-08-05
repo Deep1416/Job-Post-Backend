@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // CORS options
 const corsOptions = {
-  origin: "https://job-post-backend-jvh0.onrender.com", // Corrected URL
+  origin: "https://job-post-ui-five.vercel.app", // Corrected URL
   credentials: true,
 };
 app.use(cors(corsOptions));
