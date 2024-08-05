@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // CORS options
 const corsOptions = {
-  origin: "https://job-post-ui-five.vercel.app", // Corrected URL
+  origin: ["https://job-post-ui-five.vercel.app","http://localhost:5173"], // Corrected URL
   credentials: true,
 };
 app.use(cors(corsOptions));
