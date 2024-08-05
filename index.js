@@ -18,7 +18,7 @@ app.use(cookieParser());
 
 // CORS options
 const corsOptions = {
-  origin: "http://localhost:5173", // Corrected URL
+  origin: "https://job-post-backend-jvh0.onrender.com", // Corrected URL
   credentials: true,
 };
 app.use(cors(corsOptions));
